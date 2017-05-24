@@ -1,14 +1,12 @@
 * {
   font-family: 'Cinzel', serif;
 }
-
 body {
   width: 1300px;
   margin: auto;
   position: relative;
 
 }
-
 .gallery img {
   width: 10%;
   height: auto;
@@ -17,48 +15,70 @@ body {
   margin-top: 5%;
 
 }
-
 #title {
-  border: 2px solid red;
   position: absolute;
-
-
-
-
+  font-size: 200px;
+  top: -20%;
 }
-
+#title:first-letter {
+  font-size: 400px;
+  color: #a5af7d;
+}
 .links {
-  border: 2px solid red;
   position: absolute;
   right: 0;
   top: 5%;
   width: 20%;
-
 }
-
 .links a{
   margin-right: 5%;
   text-decoration: none;
   color: black;
 }
-
 .who {
   float: left;
   width: 48%;
-  border: 2px solid red;
 }
-
 .gallery {
   float: right;
   width: 48%;
-  border: 2px solid red;
   position: relative;
 }
 
 .items:nth-child(6), .items:nth-child(10){
   clear: left;
 }
-
-.headerImage {
-  border: 2px solid red;
+.nav img{
+  width: 7%;
+  float: left;
+  margin-left: 10%;
+}
+.nav {
+  float: left;
+  clear: right;
+}
+.moveButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  background-color: #a5af7d;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+span {
+  color: #a5af7d;
+  font-weight: bold;
+}
+#fairy {
+  position: absolute;
+  width: 5%;
+  right: 75px;
+  top: 310px;
 }
