@@ -1,0 +1,64 @@
+* {
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  width: 1300px;
+  margin: auto;
+  position: relative;
+
+}
+
+.gallery img {
+  width: 10%;
+  height: auto;
+  float: left;
+  margin-left: 12%;
+  margin-top: 5%;
+
+}
+
+#title {
+  border: 2px solid red;
+  position: absolute;
+
+
+
+
+}
+
+.links {
+  border: 2px solid red;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  width: 20%;
+
+}
+
+.links a{
+  margin-right: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+.who {
+  float: left;
+  width: 48%;
+  border: 2px solid red;
+}
+
+.gallery {
+  float: right;
+  width: 48%;
+  border: 2px solid red;
+  position: relative;
+}
+
+.items:nth-child(6), .items:nth-child(10){
+  clear: left;
+}
+
+.headerImage {
+  border: 2px solid red;
+}
